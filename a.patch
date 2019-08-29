@@ -1,0 +1,26 @@
+diff --git a/test.cpp b/test.cpp
+index a46ee2a..81d306d 100644
+--- a/test.cpp
++++ b/test.cpp
+@@ -1,14 +1,18 @@
+ #include <iostream>
+ 
+-class Test
++class Boladona
+ {
+ public:
+-	Test();
+-private:
++	Boladona()
++	{
++		std::cout << "Sou boladona!" << std::endl;
++	}
+ }
+ 
++
+ int main()
+ {
++	Boladona bolei;
+ 	std::cout << "Teste cpp" << std::endl;
+ 	return 0;
+ }
